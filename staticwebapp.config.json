@@ -6,7 +6,12 @@
   "routes": [
     {
       "route": "/",
-      "allowedRoles": ["anonymous"]
+      "statusCode": 301,
+      "redirect": "https://www.abedi.dev/"
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html"
     }
   ],
   "responseOverrides": {
@@ -17,16 +22,5 @@
   },
   "globalHeaders": {
     "X-Frame-Options": "DENY"
-  },
-  "routes": [
-    {
-      "route": "/*",
-      "serve": "/index.html"
-    },
-    {
-      "route": "/",
-      "statusCode": 301,
-      "redirect": "https://www.abedi.dev/"
-    }
-  ]
+  }
 }
