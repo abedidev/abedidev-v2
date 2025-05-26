@@ -1,8 +1,4 @@
 {
-  "navigationFallback": {
-    "rewrite": "index.html",
-    "exclude": ["/assets/*"]
-  },
   "routes": [
     {
       "route": "/",
@@ -10,17 +6,22 @@
       "redirect": "https://www.abedi.dev/"
     },
     {
+      "route": "/charlene-digital-ageism",
+      "rewrite": "/charlene-digital-ageism.html"
+    },
+    {
       "route": "/*",
       "serve": "/index.html"
     }
   ],
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": ["/charlene-digital-ageism.html"]
+  },
   "responseOverrides": {
     "404": {
       "rewrite": "/index.html",
       "statusCode": 200
     }
-  },
-  "globalHeaders": {
-    "X-Frame-Options": "DENY"
   }
 }
