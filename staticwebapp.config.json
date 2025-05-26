@@ -1,0 +1,32 @@
+{
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": ["/assets/*"]
+  },
+  "routes": [
+    {
+      "route": "/",
+      "allowedRoles": ["anonymous"]
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  },
+  "globalHeaders": {
+    "X-Frame-Options": "DENY"
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html"
+    },
+    {
+      "route": "/",
+      "statusCode": 301,
+      "redirect": "https://www.abedi.dev/"
+    }
+  ]
+}
