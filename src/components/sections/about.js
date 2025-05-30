@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Kotlin', 'PyTorch', 'Azure', 'Docker', 'LLM'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,31 +135,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Ali, and I love turning messy data into meaningful insights. My
+              journey into machine learning kicked off back in 2010, when I dived headfirst into
+              optical character recognition. Armed with Support Vector Machines and Hidden Markov
+              Models (the cool kids of the time), I built a document image retrieval system that
+              felt like sci-fi made real.
+            </p>
+            <p>
+              That passion followed me into my Ph.D., where I tackled document image
+              super-resolution using, you guessed it, more machine learning.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast forward to today, I’ve had the thrill of building real-world AI-powered systems
+              across banking, healthcare, and beyond. From graphs, images, and videos to sensor
+              signals and natural language, I’ve worked with all kinds of data to craft intelligent,
+              decision-making software that lives out in the wild.
             </p>
 
-            <p>
+            {/* <p>
               I also recently{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 launched a course
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
