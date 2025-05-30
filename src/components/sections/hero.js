@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I build machine-learning-driven software that turns data into impactful real-world
-        solutions. Currently, I'm creating AI-powered, human-centred healthcare products at{' '}
+        I build machine-learning-driven software that turns data into real-world solutions.
+        Currently, I'm creating AI-powered, human-centred healthcare products at{' '}
         <a href="https://www.uhn.ca/" target="_blank" rel="noreferrer">
           UHN
         </a>
