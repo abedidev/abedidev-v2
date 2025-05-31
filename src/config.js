@@ -11,12 +11,12 @@ module.exports = {
       url: 'https://github.com/abedidev',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/abedidotdev',
-    },
-    {
       name: 'GoogleScholar',
       url: 'https://scholar.google.com/citations?user=4T4XqKoAAAAJ&hl=en',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/abedidotdev',
     },
   ],
 
