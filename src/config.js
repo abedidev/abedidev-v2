@@ -34,7 +34,7 @@ module.exports = {
       url: '/#educations',
     },
     {
-      name: 'Work',
+      name: 'Publications',
       url: '/#projects',
     },
     {
