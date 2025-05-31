@@ -1,26 +1,22 @@
 module.exports = {
-  email: 'ali.abedi@utoronto.ca',
+  email: 'abediee@gmail.com',
 
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/abedidev',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/abedidev',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/abedidev',
+      name: 'GitHub',
+      url: 'https://github.com/abedidev',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/abedidotdev',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/abedidev',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/abedidev',
+      name: 'GoogleScholar',
+      url: 'https://scholar.google.com/citations?user=4T4XqKoAAAAJ&hl=en',
     },
   ],
 
