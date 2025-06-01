@@ -135,11 +135,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Ali, and I love turning messy data into meaningful insights. My
-              journey into machine learning kicked off back in 2010, when I dived headfirst into
-              optical character recognition. Armed with Support Vector Machines and Hidden Markov
-              Models (the cool kids of the time), I built a document image retrieval system that
-              felt like sci-fi made real.
+              Hello! I'm Ali, and I love turning messy data into meaningful insights. My journey
+              into machine learning kicked off back in 2010, when I dived headfirst into optical
+              character recognition. Armed with Support Vector Machines and Hidden Markov Models
+              (the cool kids of the time), I built a document image retrieval system that felt like
+              sci-fi made real.
             </p>
             <p>
               That passion followed me into my Ph.D., where I tackled document image
